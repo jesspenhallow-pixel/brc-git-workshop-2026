@@ -919,21 +919,9 @@ git switch main
 
 ---
 
-## How collaboration works
-
-- A shared repository lives on GitHub (the **hub**)
-- Each person has their own local copy
-- Work flows like this:
-  - **Pull**: get the latest changes from GitHub
-  - **Edit**: make changes locally
-  - **Push**: send your changes back to GitHub
-
-GitHub is the single source of truth.
-
----
-
 ![](images/hub-spoke-alt.png){fig-width="78%" fig-align="center"}
 
+GitHub is the single source of truth.
 
 ## When collaborating, use feature branches
 
@@ -958,16 +946,6 @@ Never work directly on `main` — create a **feature branch** for each piece of 
 :::
 
 ::::
-
----
-
-## How changes get into `main`
-
-1. Create a feature branch
-2. Make your changes
-3. Commit your work
-4. Push the branch to GitHub
-5. Open a **Pull Request (PR)**
 
 ---
 
@@ -1003,15 +981,6 @@ Never work directly on `main` — create a **feature branch** for each piece of 
 :::
 
 ::::
-
----
-
-### Golden rules:
-
-- Pull before you start
-- Don’t work on `main`
-- Keep changes small and focused
-
 
 ---
 
