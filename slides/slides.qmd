@@ -626,6 +626,9 @@ See the `example` folder on [GitHub][example] to download the files.
 
 To begin, we'll assume we have downloaded the `example/` project folder, which includes:
 
+:::: {.columns}
+
+::: {.column style="width:55%; flex:0 0 55%;"}
 `README.md`
 : A short description of the project
 
@@ -637,13 +640,18 @@ To begin, we'll assume we have downloaded the `example/` project folder, which i
 
 `.gitignore`
 : Rules telling Git not to track `data/` or `outputs/`
+:::
 
+::: {.column style="width:45%; flex:0 0 45%;"}
 ::: {.box}
 Our goal is to:
 
 1. Put this project under version control; and
 2. Make two commits.
 :::
+:::
+
+::::
 
 ---
 
