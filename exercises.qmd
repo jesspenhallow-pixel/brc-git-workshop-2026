@@ -324,7 +324,7 @@ Refresh your repository page on GitHub. The new commit should appear at the top 
 
 ✅ **Checkpoint:** Edit → commit → push. That's the everyday loop.
 
-::: {.callout-note}
+::: {.callout-note collapse="true"}
 ## `git switch` vs `git checkout`
 These exercises use `git switch`, the modern syntax for working with branches (introduced in Git 2.23). Older tutorials and Stack Overflow answers often use `git checkout` for the same operations:
 
@@ -402,7 +402,7 @@ cd brc-git-workshop-2026
 
 ### Step 3: Add your name
 
-Open `names.md` and add your name on a new line at the bottom:
+Open `names.md` in a text editor (Notepad on Windows, TextEdit on Mac) and add your name on a new line at the bottom:
 
 ```
 - Your Name
@@ -442,7 +442,7 @@ git push
 
 ---
 
-::: {.callout-tip}
+::: {.callout-tip collapse="true"}
 ## Common issues
 
 **"I cloned the original repo, not my fork"**
