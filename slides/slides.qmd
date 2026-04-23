@@ -49,6 +49,74 @@ format:
 
 ---
 
+::: {.survey-panel}
+::: {.survey-stat-grid}
+::: {.survey-stat-item}
+::: {.survey-stat .survey-teal}
+43%
+:::
+[have never used Git]{.survey-label}
+:::
+
+::: {.survey-stat-item}
+::: {.survey-stat .survey-accent}
+83%
+:::
+[use filenames to version their work]{.survey-label}
+:::
+
+::: {.survey-stat-item}
+::: {.survey-stat .survey-amber}
+83%
+:::
+[use R in their analysis workflow]{.survey-label}
+:::
+
+::: {.survey-stat-item}
+::: {.survey-stat .survey-primary}
+52%
+:::
+[use a Mac]{.survey-label}
+:::
+:::
+:::
+
+---
+
+::: {.survey-panel}
+::: {.survey-stat-grid}
+::: {.survey-stat-item}
+::: {.survey-stat .survey-primary}
+45%
+:::
+[want the fundamentals]{.survey-label}
+:::
+
+::: {.survey-stat-item}
+::: {.survey-stat .survey-teal}
+42%
+:::
+[want practical workflow help]{.survey-label}
+:::
+
+::: {.survey-stat-item}
+::: {.survey-stat .survey-accent}
+39%
+:::
+[mention GitHub and collaboration]{.survey-label}
+:::
+
+::: {.survey-stat-item}
+::: {.survey-stat .survey-accent}
+55%
+:::
+[said the main blocker was not knowing where to start]{.survey-label}
+:::
+:::
+:::
+
+---
+
 ## What is Git? {.sec background-color="#28A7A7"}
 
 ---
@@ -181,21 +249,21 @@ We can send and receive changes from the remote. This is referred to as "pushing
 ::: {.key-term-title}
 Tracked vs. untracked
 :::
-New files in your folder are invisible to Git until you add them. Once added, Git watches them for changes.
-:::
-
-::: {.key-term-card .key-term-staging}
-::: {.key-term-title}
-Staging
-:::
-Before committing, you choose which changes to include. This lets you be deliberate about what goes into each commit.
+Git only watches files you've added. Everything else is invisible to it.
 :::
 
 ::: {.key-term-card .key-term-commit}
 ::: {.key-term-title}
 Commit
 :::
-A saved snapshot of your project at a point in time, with a message, author, and timestamp.
+A saved snapshot of your project — with a message, author, and timestamp.
+:::
+
+::: {.key-term-card .key-term-staging}
+::: {.key-term-title}
+Staging
+:::
+Pick which changes go into the next commit — so each one is deliberate.
 :::
 
 ::::

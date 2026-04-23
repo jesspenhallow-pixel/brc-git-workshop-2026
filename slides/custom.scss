@@ -518,6 +518,67 @@ $blockMargin:        0.6em;
   margin-bottom: 0.35em;
 }
 
+.reveal .survey-panel {
+  min-height: 78%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reveal .survey-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 2.2em;
+  row-gap: 1.3em;
+  width: min(820px, 100%);
+  margin: 0 auto;
+}
+
+.reveal .survey-stat-item {
+  align-self: start;
+  text-align: left;
+
+  p {
+    margin: 0px;
+  }
+}
+
+.reveal .survey-stat {
+  font-family: $headingFont;
+  font-size: 2.75em;
+  font-weight: 700;
+  letter-spacing: -0.06em;
+  line-height: 0.9;
+  margin-bottom: 0.0em;
+}
+
+.reveal .survey-teal {
+  color: $teal;
+}
+
+.reveal .survey-accent {
+  color: $accent;
+}
+
+.reveal .survey-amber {
+  color: darken($amber, 10%);
+}
+
+.reveal .survey-primary {
+  color: $primary;
+}
+
+.reveal .survey-label {
+  color: $dark-text;
+  display: block;
+  font-family: $headingFont;
+  font-size: 0.88em;
+  font-weight: 700;
+  line-height: 1.08;
+  max-width: 10.5em;
+  text-wrap: balance;
+}
+
 .reveal .task-panel {
   position: relative;
   background:

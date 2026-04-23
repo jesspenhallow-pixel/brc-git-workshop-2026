@@ -29,7 +29,7 @@ Git is not installed by default on macOS. The easiest way to get it is to instal
    ```bash
    git --version
    ```
-   You should see a version number like `git version 2.39.3`.
+   You should see a version number like `git version 2.50.1`.
 
 ::: {.callout-note collapse="true"}
 ## Alternative: install via Homebrew
@@ -109,8 +109,8 @@ This step tells Git your name and email so they appear in your commits. You only
 Open a terminal (**Terminal** on Mac, **Git Bash** on Windows) and run these three commands, replacing the name and email with your own:
 
 ```bash
-git config --global user.name "Ewan Carr"
-git config --global user.email "ewan.carr@kcl.ac.uk"
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
 git config --global init.defaultBranch main
 ```
 
@@ -118,7 +118,7 @@ git config --global init.defaultBranch main
 The name here is not your KCL username, your KCL login ID, or your GitHub username —
 it has nothing to do with GitHub. It is purely a local Git setting: the display name
 that will appear on your commits. Use your first and last name in normal sentence case,
-e.g. `"Ewan Carr"`. Your real name is recommended so collaborators can see who made each
+e.g. `"Jane Smith"`. Your real name is recommended so collaborators can see who made each
 change.
 :::
 
