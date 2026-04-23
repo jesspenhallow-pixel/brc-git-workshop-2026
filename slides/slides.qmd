@@ -692,12 +692,11 @@ and any assumptions or trade-offs involved.
 
 :::: {.columns}
 
-
-::: {.column .good-examples-column width="70%"}
+::: {.column .good-examples-column width="60%"}
 
 ### 🚀 Good examples
 
-::: {.box color="green"}
+::: {.box color="green" style="font-size:0.8em;"}
 **Add cross-validation to model pipeline**<br>
 <br>
 
@@ -705,7 +704,7 @@ Implements 5-fold CV for logistic regression model. This replaces the previous
 single train/test split to reduce variance in performance estimates.
 :::
 
-::: {.box color="green"}
+::: {.box color="green" style="font-size:0.8em;"}
 **Check for missing values before model fitting**
 <br><br>
 
@@ -715,7 +714,7 @@ values. This prevents silent failures and unexpected model behaviour.
 
 :::
 
-::: {.column .bad-examples-column width="30%"}
+::: {.column .bad-examples-column width="40%"}
 
 ### 🔥 Bad examples
 
@@ -723,6 +722,8 @@ values. This prevents silent failures and unexpected model behaviour.
 - `Changes`
 - `Update`
 - `Final version`
+- `Fix`
+- `Fix, properly this time`
 
 :::
 
@@ -730,7 +731,7 @@ values. This prevents silent failures and unexpected model behaviour.
 
 ---
 
-## You can (and should) tell Git to ignore some files
+## Use `.gitignore` to ignore files you don't want tracked
 
 Create a file `.gitignore` in the project folder. Use this file to omit files
 you don't want under version control. For example:
@@ -751,14 +752,14 @@ outputs/    # and 'outputs'
 
 ---
 
-::: {.center style="color: #8a001a; font-weight: 600; font-size: 2.2em; line-height: 1.6; text-align: center; max-width: 80%; margin: 0 auto;"}
+::: {.center style="color: #C42D4A; font-weight: 600; font-size: 2.2em; line-height: 1.6; text-align: center; max-width: 80%; margin: 0 auto;"}
 
 Never commit patient data.
 :::
 
 ---
 
-Add any data folders (e.g., `data`) to your `.gitignore` file **before** any data files are added.
+Add any data folders to your `.gitignore` file **before** any data files are added.
 
 ::: {.callout-warning}
 **Once sensitive data is committed to a public repository, deleting the file later is not enough.**
@@ -915,7 +916,7 @@ work.
 
 ---
 
-## Pull requests (PR)
+## Pull requests
 
 A pull request is a way of asking to [merge a branch]{.alert} into `main`.
 
@@ -923,7 +924,7 @@ A pull request is a way of asking to [merge a branch]{.alert} into `main`.
 2. Make and commit changes on that branch
 3. On GitHub, open a pull request to merge into `main`
 
-The PR allows others to [review and approve]{.alert} your code, or suggest changes.
+A pull request allows others to [review and approve]{.alert} your code, or suggest changes. Pull requests are also referred to as PRs.
 
 ---
 
